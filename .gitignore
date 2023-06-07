@@ -1,4 +1,5 @@
 .vscode/
 vendor/
-config/
 .phpunit.result.cache/
+/test/coverage/
+/config/database.php/
