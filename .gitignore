@@ -1,0 +1,4 @@
+.vscode/
+vendor/
+config/
+.phpunit.result.cache/
