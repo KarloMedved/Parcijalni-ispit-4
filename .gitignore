@@ -1,4 +1,2 @@
 .vscode/
 vendor/
-.phpunit.result.cache/
-config/database.php/

@@ -2,8 +2,7 @@
 {
     "autoload": {
         "psr-4": {
-            "App2\\": "src/",
-            "Core\\": "libs"
+            "App2\\": ".loader.php"
         }
     },
     "require-dev": {
