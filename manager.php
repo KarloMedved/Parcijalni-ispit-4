@@ -1,6 +1,6 @@
 <?php
 
-class manager {
+class Manager {
     private $configData;
 
     public function __construct($configFilePath) {

@@ -1,15 +1,14 @@
 <?php
 
-spl_autoload_register(function ($className) {
-    $classFile = __DIR__ . '/' . $className . '.php';
-    if (file_exists($classFile)) {
-        require_once $classFile;
-    }
-});
+use Core\Connections;
+
+
+require_once 'vendor/autoload.php';
+
 
 $configFilePath = __DIR__ . '/config.php';
 
-$configManager = new manager($configFilePath);
+$configManager = new Manager($configFilePath);
 
 $Connection = connections::getInstance($configManager);
 
